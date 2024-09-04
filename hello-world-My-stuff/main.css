@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-color: rgb(88, 160, 223);
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Test{
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(81, 115, 196);
+    border: outset 5px rgb(28, 29, 111);
+}
+
+#Test:hover{
+    border-radius: 30px;
+    transition: border-radius 0.4s;
+}
+
+#Round:hover{
+    border-radius: 30px;
+    transition: border-radius 0.4s;
+}
+
+#Round:not(:hover){
+    border-radius: 0px;
+    transition: border-radius 1s;
+}
+
+#Test:not(:hover){
+    border-radius: 0px;
+    transition: border-radius 1s;
+}

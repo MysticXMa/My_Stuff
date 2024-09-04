@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--Start-->
+<html>
+    <head>
+        <title>My first page!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        <!--We get our main.css-->
+        <link rel="stylesheet" href="main.css">
+        <!--We get our main.js-->
+        <script src="main.js"></script>
+    <body>
+        <h1 id="Test">Minun eka Sivusto!
+            <br>
+            :D
+        </h1>
+        <br>
+        <div>
+            <hr>
+            <table>
+                <ul>
+                    <!--Change Text-->
+                    <h1>Kysymykset ja niihin vastaukset:</h1>
+                    <h2><li>Miten tyhjän tagin käyttö eroaa muiden tagien käytöstä?</li></h2>
+                    <p>- Tyhjän tagin tehtävä on tehdää uusi rivi ilman sitä että teksti on peräkkäin.</p>
+                    <h2><li>Mitä Case sensitive tarkoitta?</li></h2>
+                    <p>- Case sensitive tarkoitta, että HTML ei kiinosta jos sinä kirjoitat jotain isolla kirjaimella tai et.</p>
+                </ul>
+            </table>
+            <hr>
+            <!--More Text-->
+            <h1>Otsikko 1</h1>
+            <p>Tämä on otsikko 1!</p>
+            <h2>Otsikko 2</h2>
+            <p>Tämä on otsikko 2!</p>
+            <h3>Otsikko 3</h3>
+            <p>Tämä on otsikko 3!</p>
+            <br>
+            <hr>
+            <!--B is making the text BOLD-->
+            <p><b>TÄMÄ</b> kohta tekstiä on boltattu!</p>
+            <hr>
+            <br>
+            <!--Adds photo-->
+            <p>KUVA :3</p>
+            <img id="Round" src="https://preview.redd.it/my-cat-looks-goofy-v0-vreh8zeeym091.jpg?auto=webp&s=33da9de320b021a33877f96b686c65be8641b3f6" width="250" height="250" alt="">
+            <br>
+            <hr>
+            <!--Lists-->
+            <h1>Listat:</h1>
+            <hr>
+            <table>
+                <ul>
+                    <li>Pelaa pelejä</li>
+                    <li>Peseydy</li>
+                    <li>Syö</li>
+                </ul>
+            </table>
+            <hr>
+            <table>
+                <ol>
+                    <li>Herää</li>
+                    <li>Syö</li>
+                    <li>Mene kouluun</li>
+                </ol>
+            </table>
+            <hr>
+            <!--Adds Links-->
+            <a href="https://salpaus.fi" target="_blank"><h1>Linkki Salpaukseen.</h1></a>
+            <br>
+            <a href="portfolio.html"><h1>Katso minun upea portfolio!.</h1></a>
+            <hr>
+            <!--Making normal login screen-->
+            <p>Lomake:</p>
+            <p>Nimi: <input placeholder="Name" type="text" name="" id="" required></p>
+            <p>Sukunimi: <input placeholder="LastName" type="text" name="" id="" required></p>
+            <p>Salasana: <input placeholder="Pass" type="password" name="" id="" maxlength="10" required></p>
+            <p>Email: <input placeholder="email@gmail.com" type="email" name="" id="" maxlength="10" required></p>
+            <p>
+                <input type="submit">
+                <input type="reset">
+            </p>
+            <hr>
+            <!--Changes button color and text-->
+            <h1>Tehtävä 1</h1>
+            <p><button onclick="ChangeColor()" id="btn">Click Me!</button></p>
+            <p><button onclick="ChangeColor2()" id="btn2">Click Me Also!</button></p>
+            <hr>
+            <h1>Tehtävä 2</h1>
+            <h1>What is var, let and const?</h1>
+            <table>
+                <ol>
+                    <li>var is used for old browsers. They're known for using everywhere in the script. You can make multiple same named variables with other information.</li>
+                    <p><li>let is used when you can't use const also let values cannot be used everywhere. If you try to declare them in a block scope then you must type everything in it. You can't make 2 same named variables or it will not work.</li></p>
+                    <li>const or constant is a value that cannot be changes in future. You can use const when you make new Arrau, Object, Function or RegExp. You can change elements in Arrays</li>
+                </ol>
+            </table>
+            <hr>
+            <!--Will check your age if you're old enough to drink beer-->
+            <h1>Tehtävä 3</h1>
+            <p>Type here you'r age and I let you know if you're old enough to drink beer.</p>
+            <input type="text" id="age" maxlength="3">
+            <input onclick="Age()" type="submit">
+            <b><p id="test"></p></b>
+            <hr>
+            <!--Will make a loop that will print Huuhuu 5 times-->
+            <h1>Tehtävä 4</h1>
+            <p>This test will print Huuhuu 5 times. Just click on the button!</p>
+            <button onclick="OnCLick()" type="button">Try me.</button>
+            <p id="Huuhuu"></p>
+            <hr>
+            <!--Will make a list with a ! at the end-->
+            <h1>Tehtävä 5</h1>
+            <p>Click on this button to see a better list!</p>
+            <button onclick="ChangeList()" type="button">Click me!</button>
+            <p id="BetterList"></p>
+            <hr>
+            <h1>Tehtävä 6</h1>
+            <p>Name: <input placeholder="Name" type="text" id="name" required></p>
+            <p>Last Name: <input placeholder="Last Name" type="text" id="lname" required></p>
+            <p><input onclick="fullName()" type="submit"></p>
+            <p id="information"></p>
+        </div>
+    </body>
+</html>
+<!--End-->
