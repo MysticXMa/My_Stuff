@@ -17,5 +17,6 @@ Hi I'm Maxim, I'm 16 years old and I love to code. I love to hangout with friend
 4. REEAT
 ```
 
-![image](https://github.com/user-attachments/assets/75ca929b-34c3-43e9-aef5-7a76beb3710e)
+![image](https://github.com/user-attachments/assets/17bb3820-a7ce-4686-8e62-9b32b39a350c)
+
 
