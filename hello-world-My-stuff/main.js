@@ -56,5 +56,5 @@ function fullName(){
     let name = document.getElementById("name").value
     let lname = document.getElementById("lname").value
     var text = name + " " + lname
-    document.getElementById("information").innerHTML = "Hei: " + text
+    document.getElementById("information").innerHTML = "Hei: " + text // moi
 }
