@@ -1,3 +1,4 @@
+/*Our body texture*/
 body{
     text-align: center;
     background-color: rgb(88, 160, 223);
@@ -7,6 +8,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*Our Test texture*/
 #Test{
     padding: 10px;
     margin: 20px;
@@ -14,21 +16,25 @@ body{
     border: outset 5px rgb(28, 29, 111);
 }
 
+/*This will make an animation when mouse will hover a button or PNG */
 #Test:hover{
     border-radius: 30px;
     transition: border-radius 0.4s;
 }
 
+/*Same here*/
 #Round:hover{
     border-radius: 30px;
     transition: border-radius 0.4s;
 }
 
+/*This will reverse the animation of a button or PNG */
 #Round:not(:hover){
     border-radius: 0px;
     transition: border-radius 1s;
 }
 
+/*Same here*/
 #Test:not(:hover){
     border-radius: 0px;
     transition: border-radius 1s;

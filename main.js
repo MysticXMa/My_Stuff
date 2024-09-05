@@ -1,13 +1,16 @@
+// This will change color
 function ChangeColor(){
     document.getElementById("Change").style.color = "red"
     document.getElementById("btn").innerHTML = "I can change Color!"
 }
 
+// This will change text
 function ChangeColor2(){
     document.getElementById("Change").innerHTML = "TEHTÄVÄ 1"
     document.getElementById("btn2").innerHTML = "WoW"
 }
 
+// This will show age
 function Age(){
     let age = document.getElementById("age").value;
     let voteable
@@ -23,6 +26,7 @@ function Age(){
     }
 }
 
+// This will print Huuhuu 5 times making a loop
 function OnCLick(){
     let text = "";
     let i = 1;
@@ -37,6 +41,7 @@ function OnCLick(){
     }
 }
 
+// This will show Animals in order with a ! in the end
 function ChangeList(){
     let text = "";
     let i = 0;
@@ -52,6 +57,7 @@ function ChangeList(){
     }
 }
 
+// This will show the full name with an "Hei:" at the start
 function fullName(){
     let name = document.getElementById("name").value
     let lname = document.getElementById("lname").value
