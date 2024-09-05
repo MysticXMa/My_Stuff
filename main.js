@@ -1,11 +1,11 @@
 function ChangeColor(){
-    document.getElementById("btn").style.color = "red"
+    document.getElementById("Change").style.color = "red"
     document.getElementById("btn").innerHTML = "I can change Color!"
 }
 
 function ChangeColor2(){
-    document.getElementById("btn2").innerHTML = "I can change text and bg!"
-    document.getElementById("btn2").style.background = "green"
+    document.getElementById("Change").innerHTML = "TEHTÄVÄ 1"
+    document.getElementById("btn2").innerHTML = "WoW"
 }
 
 function Age(){
