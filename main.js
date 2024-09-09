@@ -44,17 +44,12 @@ function OnCLick(){
 // This will show Animals in order with a ! in the end
 function ChangeList(){
     let text = "";
-    let i = 0;
-    const myList = ["Koira","Kissa","Hevonen", "Hiiri","Marsu"]
+    const myList = ["Koira","Kissa","Hevonen", "Hiiri","Marsu"];
 
-    do {
+    for (let i = 0; i < myList.length; i++) {
         text += "<br>" + myList[i] + "!";
-        i++;
     }
-
-    while (i < 5) {
-        document.getElementById("BetterList").innerHTML = text;
-    }
+    document.getElementById("BetterList").innerHTML = text;
 }
 
 // This will show the full name with an "Hei:" at the start
