@@ -52,10 +52,15 @@ function ChangeList(){
     document.getElementById("BetterList").innerHTML = text;
 }
 
-// This will show the full name with an "Hei:" at the start
+// This will save your data
 function fullName(){
     let name = document.getElementById("name").value
     let lname = document.getElementById("lname").value
+    nameLname(name, lname)
+}
+
+// This will print it and say Hei:
+function nameLname(name, lname){
     var text = name + " " + lname
     document.getElementById("information").innerHTML = "Hei: " + text // moi2
 }
