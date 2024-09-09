@@ -32,7 +32,7 @@ function OnCLick(){
     let i = 1;
     
     do {
-        text += "<br>Huuhuu " + i;
+        text += "<br>Huuhuu?!";
         i++;
     }
 
