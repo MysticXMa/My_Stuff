@@ -56,10 +56,10 @@ function ChangeList(){
 function fullName(){
     let name = document.getElementById("name").value
     let lname = document.getElementById("lname").value
-    nameLname(name, lname)
+    document.getElementById("information").innerHTML = nameLname(name, lname)
 }
 
 // This will print it and say Hei:
 function nameLname(name, lname){
-    return document.getElementById("information").innerHTML = "Hei, " + name + " " + lname
+    return "Hei, " + name + " " + lname
 }
