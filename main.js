@@ -61,6 +61,5 @@ function fullName(){
 
 // This will print it and say Hei:
 function nameLname(name, lname){
-    var text = name + " " + lname
-    document.getElementById("information").innerHTML = "Hei, " + text // moi2
+    return document.getElementById("information").innerHTML = "Hei, " + name + " " + lname
 }
